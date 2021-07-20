@@ -84,13 +84,7 @@ image {
     text-align: center;
 }
 
-.boardbox {
-    width: 400px;
-    background-color: white;
-    border: 15px solid rgb(255, 255, 255) ;
-    padding: 50px;
-    margin: 20px;
-    padding: 5px;
-    box-shadow: 4px 3px 4px 2px gray;
+.list {
+    text-align: center;
    
 }
