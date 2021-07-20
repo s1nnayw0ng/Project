@@ -92,3 +92,15 @@ image {
                
 }
 
+.gallery ul {
+    list-style: none;
+}
+
+.card-item a {
+    text-decoration: none;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30em, 1fr)); 
+}
