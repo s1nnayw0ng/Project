@@ -56,6 +56,12 @@ image {
     width: 100%;
 }
 
+#carrousel-separation {
+    display: flex;
+    height: 45vh;
+    width: 100%;
+}
+
 .heroIndex {
     padding: 25px;
     margin-top: 25px;
