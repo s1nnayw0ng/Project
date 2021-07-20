@@ -151,10 +151,11 @@ a:hover{
 .inner_footer .logo_container img {
     width: 65px;
     height: auto;
+    justify-content: center;
 }
 
 .inner_footer .footer_third {
-    width: calc(21.6666666667% - 20px);
+    width: calc(21.6666666667% - 5px);
     margin-right: 55px;
     float: left;
     height: 100%;
@@ -167,7 +168,7 @@ a:hover{
 .inner_footer .footer_third h1{
     font-family: 'Montserrat', sans-serif;
     font-size: 22px;
-    color:whitesmoke;
+    color:rgb(101, 158, 195);
     display: block;
     width: 100%;
     margin-bottom: 20px;
@@ -181,14 +182,36 @@ a:hover{
     font-weight: 200;
     width: 100%;
     padding-bottom: 5px;
+    text-decoration: none;
 }
 
 .inner_footer .footer_third h3{
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     color:whitesmoke;
     display: block;
     font-weight: 200;
     width: 100%;
     padding-bottom: 5px;
+}
+
+.inner_footer .footer_third li{
+    display: inline-block;
+    padding: 0 5px;
+    font-size: 24px;
+}
+
+span{
+    color: rgb(253, 208, 7);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    display: block;
+    margin-top: 5px;
+    padding-top: 5px;
+    justify-content: center;
+}
+
+.inner_footer .footer_third a:hover{
+    color: rgb(253, 208, 7);
 }
