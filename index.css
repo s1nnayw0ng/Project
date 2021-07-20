@@ -215,3 +215,14 @@ span{
 .inner_footer .footer_third a:hover{
     color: rgb(253, 208, 7);
 }
+
+@media(max-width: 600px) {
+    .footer .inner_footer {
+        width: 90%;
+    }
+    .inner_footer .logo_container,
+    .inner_footer .footer_third {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
