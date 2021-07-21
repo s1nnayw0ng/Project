@@ -79,17 +79,29 @@ image {
 
 }
 
-.wild{
+.wild {
     white-space: pre-wrap;
     text-align: center;
 }
 
-.list{
+.place-list {
     text-align:center;
     border: 3px solid rgb(0, 0, 0);
     width: 30%;
     margin: 0 auto;
-               
+    margin-bottom: 2px;
+    padding-bottom: 3px;
+    background-color: rgb(253, 208, 7);
+    font-weight: bolder;        
+}
+
+.place-list li {
+    padding-bottom: 5px;
+    font-weight: bolder;
+}
+
+.separation-about {
+    height: 5vh;
 }
 
 @media screen and (max-width:768px) {

@@ -1,20 +1,35 @@
-body {
-  text-align: center;  
-}
 
 .outer-about {
     text-align: center;
     padding: 1em;
 }
 
+article {
+    background: rgb(233, 242, 245);
+}
+
 h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
+    margin-top: 0;
     margin-bottom: 2em;
+}
+
+h3 {
+    color: rgb(0, 23, 61);
 }
 
 p {
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 2em;
+}
+
+p.span-all {
+    font-size: 1.63em;
+    padding: .5em;
+    margin: 2em 0;
+    color: rgb(253, 208, 7);
+    text-align: center;
+    font-weight: bolder;
 }
 
 section {
@@ -25,6 +40,12 @@ section {
 img {
     width: 80%;
     margin:  1em 0 0;
+}
+
+.safety li{
+    padding: .5em;
+    align-items: left;
+    justify-content: left;
 }
 
 @media only screen and (min-width: 768px){
@@ -41,4 +62,63 @@ img {
        column-rule-style: solid;
        column-rule-color: rgb(184, 186, 190);
    }
+   section > * {
+       margin-top: 0;
+   }
+   h1 {
+       font-size: 3em;
+       margin: 2em 0 1em;
+   }
+   .outer {
+       padding: 4em;
+   }
+    article {
+        padding: 2em;
+    }
+    h2 {
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        
+        &::before {
+            content: ' ';
+            position: absolute;
+            height: 10px;
+            z-index: -1;
+            bottom: -.3em;
+            left: -2em;
+            background: rgb(253, 208, 7);
+            border-radius: 1em;
+        }
+    } 
+    .secondary {
+        margin-top: 2em;
+    }
+    img {
+        width: 100%;
+    }
+    h3 {
+        margin: 1.5em 0 1em;
+    }
+    p.span-all {
+        column-span: all;
+        font-size: 1.63em;
+        padding: .5em;
+        margin: 2em 0;
+        color: rgb(253, 208, 7);
+        font-weight: bolder;
+        text-align: center;
+    }
 }
+
+@media only screen and (min-width: 1100px) {
+    .outer {
+        margin: 0 auto;
+        width: 80%
+    }
+    section {
+        column-count: 3;
+
+    }
+}
+
