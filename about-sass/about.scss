@@ -1,3 +1,7 @@
+body {
+  text-align: center;  
+}
+
 .outer-about {
     text-align: center;
     padding: 1em;
@@ -14,6 +18,27 @@ p {
 }
 
 section {
-    column-count: 2;
+    column-count: 1;
     column-gap: 2em;
+}
+
+img {
+    width: 80%;
+    margin:  1em 0 0;
+}
+
+@media only screen and (min-width: 768px){
+   body {
+       text-align: left;
+       font-size: 18px;
+   } 
+   p {
+       line-height: 1.6em;
+       text-align: left;
+   }
+   section {
+       column-count: 2;
+       column-rule-style: solid;
+       column-rule-color: rgb(184, 186, 190);
+   }
 }
