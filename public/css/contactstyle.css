@@ -4,6 +4,7 @@
     width: 60%;
     height: 100vh;
     background-color: whitesmoke;
+    margin-bottom: 50px;
 }
 
 .contact-form {
@@ -29,7 +30,6 @@ textarea {
     text-align: center;
     background-color: whitesmoke;
     cursor: pointer;
-   
 }
 
 .submit:hover {
