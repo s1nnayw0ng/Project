@@ -1,0 +1,37 @@
+.form-container {
+    position: relative;
+    left: 20%;
+    width: 60%;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+.contact-form {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 600px;
+    background: whitesmoke;
+}
+
+input,
+textarea {
+    width: 100%;
+    background: whitesmoke;
+    margin-top: 2rem;
+    border: none;
+    border-bottom: 1px solid rgb(0, 23, 61);
+}
+.submit {
+    border: 1px rgb(0, 23, 61);
+    padding: 1rem;
+    text-align: center;
+    background-color: whitesmoke;
+    cursor: pointer;
+   
+}
+
+.submit:hover {
+    opacity: 0.6;
+}
