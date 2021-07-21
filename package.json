@@ -1,0 +1,28 @@
+{
+  "name": "cfg_web",
+  "version": "1.0.0",
+  "description": "CFG web development course Group 1 - Ruby",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s1nnayw0ng/cfg_web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/s1nnayw0ng/cfg_web/issues"
+  },
+  "homepage": "https://github.com/s1nnayw0ng/cfg_web#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemailer": "^6.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

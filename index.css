@@ -241,3 +241,9 @@ span{
     width:100%;
     position:absolute;
 }
+
+.separation {
+    display: flex;
+    height: 15vh;
+    width: 100%;
+}
