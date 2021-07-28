@@ -14,9 +14,13 @@ body {
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 35px;
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 80px;
     margin-left: 40px;
     margin-right: 40px;
+}
+
+.swimming-gallery img{
+    max-height: 240px;
 }
 
 image {
@@ -47,7 +51,12 @@ image {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 18px;
+    font-size: 22px;
+    letter-spacing: 3px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    padding-left: 10px;
 }
 
 .separation {
@@ -60,6 +69,11 @@ image {
     display: flex;
     height: 45vh;
     width: 100%;
+}
+.h1-swimming {
+    padding-left: 15px;
+    margin-left: 15px;
+    margin-bottom: 25px;
 }
 
 .heroIndex {

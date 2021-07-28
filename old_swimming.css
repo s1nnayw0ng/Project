@@ -1,0 +1,82 @@
+html {
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(202, 230, 248);
+  }
+  
+  
+  
+  /*h1 {
+    color: rgb(252, 252, 252);
+    text-align: center;
+    display: flex;
+    width: 450px;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    padding: 10px 30px 30px 10px;
+    border: 1px solid #4d4a4a;
+    background-color:darkblue;
+    box-shadow: 10px 10px 5px #272525;
+  }*/
+  
+  h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+  
+  }
+  
+  div.map{
+    text-align:center;
+  
+  }
+  
+  *{
+    box-sizing: border-box;
+  }
+  
+  div.wild-spots{
+    border: 1px sold lightgrey;
+  }
+  
+  div.wild-spots:hover{
+    border: 1px solid rgb(136, 136, 136);
+  }
+  
+  div.wild-spots img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc{
+    padding: 15px;
+    text-align: center;
+  }
+  
+  div.responsive{
+    padding: 0 6px;
+    float: left;
+    width: 24.999%;
+  }
+  
+  @media only  screen and (max-width:700px) {
+    div.responsive{
+        width:49.999%;
+        margin:6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    div.responsive{
+        width:100%;
+    }
+  }
+  
+  .clearfix::after {
+    content:"";
+    display: table;
+    clear: both;
+  }
+  
+  .wild{
+    display:inline-block;
+  }
